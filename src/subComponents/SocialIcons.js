@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Facebook, Github } from "../components/AllSvgs";
+import { Facebook, Github, Linkedin } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 
 const Icons = styled.div`
@@ -55,10 +55,10 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           to={{
-            pathname: "https://www.facebook.com/profile.php?id=100014611216010",
+            pathname: "https://www.linkedin.com/in/divya-namdev/",
           }}
         >
-          <Facebook
+          <Linkedin
             width={25}
             height={25}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
